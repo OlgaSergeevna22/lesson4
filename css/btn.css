@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    display: inline-block;
+    background-color: #6cacc2;
+    color: black;
+    text-decoration: none;
+    padding-left: 26px;
+    line-height: 64px;
+}
+
+a::after {
+    content: '>';
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: blue;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    margin-left: 26px;
+}
